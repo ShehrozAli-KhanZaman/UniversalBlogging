@@ -8,6 +8,9 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  
+  //comment of ali
+  //another
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +26,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-//comment by ali
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -46,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
           'Universal Blogging',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: const Color.fromARGB(255, 13, 2, 49),
+        backgroundColor: const Color.fromARGB(255, 13, 1, 49),
       ),
       body: Stack(
         children: [
@@ -56,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     "https://www.universalblogging.com/")), //https://techanzy.com/
             // onWebViewCreated: (InAppWebViewController controller {
             //   inAppWebViewController = controller;
-            // }),
+            //}),
             onProgressChanged:
                 (InAppWebViewController controller, int progress) =>
                     {progress = (progress / 100) as int},
