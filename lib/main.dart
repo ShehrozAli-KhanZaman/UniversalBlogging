@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
+//NAqvi
 void main() {
   runApp(const MyApp());
 }
@@ -55,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     "https://www.universalblogging.com/")), //https://techanzy.com/
             // onWebViewCreated: (InAppWebViewController controller {
             //   inAppWebViewController = controller;
-            //}),
+            // }),
             onProgressChanged:
                 (InAppWebViewController controller, int progress) =>
                     {progress = (progress / 100) as int},
