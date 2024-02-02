@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-// checkout
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
