@@ -5,7 +5,6 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 void main() {
   runApp(const MyApp());
 }
-//Naqvi
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
