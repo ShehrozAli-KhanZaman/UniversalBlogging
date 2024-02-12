@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           InAppWebView(
             initialUrlRequest: URLRequest(
                 url: Uri.parse(
-                    "https://www.universalblogging.com/")), //https://techanzy.com/
+                    "https://www.youtube.com/")), // https://www.universalblogging.com/
             // onWebViewCreated: (InAppWebViewController controller {
             //   inAppWebViewController = controller;
             // }),
