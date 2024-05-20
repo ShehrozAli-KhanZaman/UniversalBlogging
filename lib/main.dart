@@ -87,11 +87,11 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           InAppWebView(
             initialUrlRequest: URLRequest(
-              url: Uri.parse(
-                  "https://www.youtube.com/")), // https://www.universalblogging.com/
+                url: Uri.parse(
+                    "https://www.youtube.com/")), // https://www.universalblogging.com/
             // onWebViewCreated: (InAppWebViewController controller {
             //   inAppWebViewController = controller;
-            // }),
+            //}),
             onProgressChanged: (controller, newProgress) {
               setState(() {});
             },
