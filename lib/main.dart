@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
             // onWebViewCreated: (InAppWebViewController controller {
             //   inAppWebViewController = controller;
             //
-            //}),
+            // }),
             onProgressChanged: (controller, newProgress) {
               setState(() {});
             },
